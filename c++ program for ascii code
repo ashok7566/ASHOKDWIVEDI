@@ -1,0 +1,16 @@
+using namespace std;
+# include<iostream>
+int main()
+{
+char ch='A';
+int num,i;
+for(i=0;i<=26;)
+   {
+     ch=ch+i;
+    num=ch;
+    cout<<"the ascii code for "<<ch<<"is"<<num<<endl;
+    i++;
+   }
+
+return 0;
+}
