@@ -1,0 +1,11 @@
+using namespace std;
+#include<iostream>
+int main()
+{
+float a=3.14,b,area;
+cout<<"enter the variable for radius";
+cin>>b;
+area=a*b*b;
+cout<<"the area of circle="<<area;
+return 0;
+}
